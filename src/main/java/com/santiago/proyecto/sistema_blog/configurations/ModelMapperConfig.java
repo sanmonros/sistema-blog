@@ -19,7 +19,7 @@ public class ModelMapperConfig {
 
     @Bean(name = "customModelMapper")
     public ModelMapper modelMapper() {
-        ModelMapper modelMapper =  new ModelMapper();
+        ModelMapper modelMapper =   new ModelMapper();
 
         // Ignorar ambigüedades
         modelMapper.getConfiguration().setAmbiguityIgnored(true);
