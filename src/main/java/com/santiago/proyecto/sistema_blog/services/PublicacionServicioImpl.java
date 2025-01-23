@@ -7,7 +7,6 @@ import com.santiago.proyecto.sistema_blog.entities.Comentario;
 import com.santiago.proyecto.sistema_blog.entities.Publicacion;
 import com.santiago.proyecto.sistema_blog.exceptions.ResourceNotFoundException;
 import com.santiago.proyecto.sistema_blog.repositories.PublicacionRepositorio;
-import org.hibernate.Hibernate;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

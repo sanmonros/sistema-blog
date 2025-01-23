@@ -4,7 +4,6 @@ import com.santiago.proyecto.sistema_blog.dtos.ComentarioDTO;
 import com.santiago.proyecto.sistema_blog.dtos.PublicacionDTO;
 import com.santiago.proyecto.sistema_blog.entities.Comentario;
 import com.santiago.proyecto.sistema_blog.entities.Publicacion;
-import org.modelmapper.AbstractConverter;
 import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.spi.MappingContext;

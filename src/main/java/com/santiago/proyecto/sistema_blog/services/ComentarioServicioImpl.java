@@ -91,6 +91,7 @@ public class ComentarioServicioImpl implements ComentarioServicioI{
         comentario.setEmail(solicitudDeComentario.getEmail());
         comentario.setCuerpo(solicitudDeComentario.getCuerpo());
 
+
         Comentario comentarioActualizado = comentarioRepositorio.save(comentario);
         return mapearDTO(comentarioActualizado);
     }
